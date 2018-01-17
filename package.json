@@ -1,7 +1,7 @@
 {
   "name": "angular-webpack-workflow",
   "version": "1.1.0",
-  "description": "A workflow for Angular made with Webpack",
+  "description": "A complete starter appication for AngularJs with Webpack (based on Realworld)",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile",
     "server": "webpack-dev-server --history-api-fallback --inline --progress",
@@ -13,14 +13,17 @@
     "type": "git",
     "url": "https://github.com/preboot/angularjs-webpack.git"
   },
-  "author": "Jesus Rodriguez",
+  "author": "Eric Alter neolanders@hotmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/preboot/angularjs-webpack/issues"
   },
   "homepage": "https://github.com/preboot/angularjs-webpack",
   "dependencies": {
-    "angular": "^1.5.0"
+    "@uirouter/angularjs": "^1.0.13",
+    "angular": "^1.6.8",
+    "angular-ui-router": "^1.0.3",
+    "marked": "^0.3.12"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.0",
