@@ -2,9 +2,13 @@
 
 [![Dependency Status](https://david-dm.org/preboot/angularjs-webpack/status.svg)](https://david-dm.org/preboot/angular-webpack#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angularjs-webpack/dev-status.svg)](https://david-dm.org/preboot/angularjs-webpack#info=devDependencies)
 
-A complete starter appication for AngularJs with Webpack (based on Realworld)
+A complete starter appication for AngularJs with Webpack (based on [`RealWorld`](/src/app/app.js)(https://github.com/gothinkster/realworld))
 
 This workflow serves as a starting point for building AngularJS (1.x) applications using Webpack 2.x. Should be noted that apart from the pre-installed angular package.
+
+Sample User Login:
+admin@test.com
+test1234
 
 * Heavily commented webpack configuration with reasonable defaults.
 * ES6, and ES7 support with babel.
@@ -87,8 +91,3 @@ It will start a local server using `webpack-dev-server` which will watch, build 
 # License
 
 [MIT](/LICENSE)
-
-
-USER:
-admin@test.com
-test1234
