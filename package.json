@@ -21,7 +21,7 @@
   "homepage": "https://github.com/preboot/angularjs-webpack",
   "dependencies": {
     "@uirouter/angularjs": "^1.0.13",
-    "angular": "^1.6.8",
+    "angular": "^1.7.9",
     "angular-ui-router": "^1.0.3",
     "marked": "^0.3.12"
   },
